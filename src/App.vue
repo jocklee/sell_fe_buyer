@@ -12,11 +12,12 @@
         <div class="tab-item">
           <router-link to="/seller">商家</router-link>
         </div>
+        <div class="tab-item">
+          <router-link to="/order">订单</router-link>
+        </div>
       </div>
     </template>
-
     <router-view :seller="seller" :showHeader="showHeader"></router-view>
-
   </div>
 </template>
 
@@ -30,6 +31,7 @@
       return {
         seller: {
           id: (() => {
+
             let queryParam = urlParse();
             return queryParam.id;
           })()

@@ -2,7 +2,9 @@
     <div id="detail">
             <div  class="statushead" >
                 <div  class="statuscircle" style="transform: scale(1); opacity: 1;">
-                    <img  class="circleimage" src="//fuss10.elemecdn.com/2/e4/bff50bab2840cdfbffeaf13a20710png.png" />
+
+                    <!--<img  class="circleimage" src="http://fuss10.elemecdn.com/2/e4/bff50bab2840cdfbffeaf13a20710png.png" />-->
+                    <img  class="circleimage" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559236742304&di=b2a6f77ab75c0e738830fb3885b89c40&imgtype=0&src=http%3A%2F%2Ffile.juzimi.com%2Fcategory_pictures%2F201501%2Fdimukukejingdianyulu106119.jpg" />
                     <!---->
                 </div>
                 <!---->
@@ -17,7 +19,7 @@
             <div  class="restaurant-card" >
                 <div  class="head listitem">
                     <div  class="name-wrap">
-                        <img  class="avatar" src="//fuss10.elemecdn.com/2/e4/bff50bab2840cdfbffeaf13a20710png.png" />
+                        <!--<img  class="avatar" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559236742304&di=b2a6f77ab75c0e738830fb3885b89c40&imgtype=0&src=http%3A%2F%2Ffile.juzimi.com%2Fcategory_pictures%2F201501%2Fdimukukejingdianyulu106119.jpg" />-->
                         <span  class="name">商品信息</span>
                     </div>
                     <!--<img  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAcCAMAAABf788oAAAAbFBMVEUAAAAzMzMzMzM2NjYzMzM1NTU0NDRAQEAzMzM0NDRAQEAzMzM0NDQzMzM0NDQ0NDQ0NDQzMzMzMzMzMzM0NDQ1NTU2NjY5OTk0NDQ0NDQzMzM0NDQzMzM0NDQ1NTU0NDQzMzM0NDQ3NzczMzMku2ijAAAAI3RSTlMA+/Yi4Do2CnhIBO/o176uopeGb2VALhsT8c/LtI2DXVVTM3zB6zwAAACGSURBVBjTfdBJEsIwDETRJHZMRkgIGZiHf/874mVbRaFdv42kzn6MCybnjAkE4JjIAFQKzQE4qez2wCuRK+S1ytZDUaqsHtpFxXXQOZWlBb+qlEWUTaXO4ZIs78Gb83R1c4PzRx8ypw0xz5JH88w95rfkB/CUXJmCJmDSP22lwZaezSH7N19vZgteSBxyaAAAAABJRU5ErkJggg==" class="icon-arrowright" />-->
@@ -44,11 +46,11 @@
                 <!---->
                 <div  class="detailcard-delivery card">
                     <div  class="title listitem">
-                        配送信息
+                        送餐信息
                     </div>
                     <ul  class="cardlist">
-                        <li  class="listitem"><span >送达时间：</span> 尽快送达 </li>
-                        <li  class="listitem"><span >送货地址：</span>
+                        <li  class="listitem"><span >制作时间：</span> 立即制作 </li>
+                        <li  class="listitem"><span >我的餐桌：</span>
                             <div  class="content">
                                 <p >{{order.buyerName}}</p>
                                 <p >{{order.buyerPhone}}</p>
@@ -171,15 +173,15 @@
     background-color: #f5f5f5;
     .statuscircle {
       margin-bottom: 10px;
-      text-align: center; 
+      text-align: center;
       img {
         width: 80px;
         height: 80px;
         border-radius: 50%;
-      }     
+      }
 
     }
-    
+
     .statushead {
       position: relative;
       padding-top: 20px;
@@ -235,5 +237,5 @@
       background-color: #fff;
     }
   }
-  
+
 </style>

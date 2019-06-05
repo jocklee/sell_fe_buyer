@@ -3,7 +3,7 @@
     <a  @click="orderDetail(item)" class="ordercard" v-for="item in orderList">
         <div  class="ordercard-body">
             <div  class="ordercard-avatar">
-                <img  src="https://fuss10.elemecdn.com/2/e4/bff50bab2840cdfbffeaf13a20710png.png?imageMogr/format/webp/">
+                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1559236742304&di=b2a6f77ab75c0e738830fb3885b89c40&imgtype=0&src=http%3A%2F%2Ffile.juzimi.com%2Fcategory_pictures%2F201501%2Fdimukukejingdianyulu106119.jpg" height="200" width="200"/>
             </div>
             <div  class="ordercard-content">
                 <div class="ordercard-head">
@@ -149,7 +149,7 @@
             color: #333;
             font-weight: 700;
           }
-          
+
         }
         .title {
 

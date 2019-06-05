@@ -19,7 +19,7 @@
             <span class="score">{{seller.foodScore}}</span>
           </div>
           <div class="delivery-wrapper">
-            <span class="title">送达时间</span>
+            <span class="title">上菜时间</span>
             <span class="delivery">{{seller.deliveryTime}}分钟</span>
           </div>
         </div>

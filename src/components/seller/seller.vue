@@ -10,7 +10,7 @@
         </div>
         <ul class="remark">
           <li class="block">
-            <h2>起送价</h2>
+            <h2>人均消费</h2>
             <div class="content">
               <span class="stress">{{seller.minPrice}}</span>元
             </div>
@@ -22,7 +22,8 @@
             </div>
           </li>
           <li class="block">
-            <h2>平均配送时间</h2>
+            <!--<h2>平均配送时间</h2>-->
+            <h2>平均上菜时间</h2>
             <div class="content">
               <span class="stress">{{seller.deliveryTime}}</span>分钟
             </div>
